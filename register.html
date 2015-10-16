@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>SYMBIAN</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/welcome.css" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="js/regvalidation.js"></script>
+   </head>
+   <body>
+      <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+         <div class="cover-container">
+            <div class="masthead clearfix">
+               <div class="inner">
+                  <h3 class="masthead-brand"><a href="index.html"><abbr title = "Symbiosis Institute of Technology Alumni Network">SYMBIAN</abbr></a></h3>
+                  <nav>
+                     <ul class="nav masthead-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact us</a></li>
+                          <li> <p class="lead" align="right">
+                              <a href="login.html" class="btn btn-lg btn-success">Login</a>
+                           </p>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+            <div class="cover-container">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                     <form role="form" method="POST" action="register.php" id = "myForm" onsubmit="return validateform()">
+                        <h2>Registration Form</h2>
+                        <hr>
+                        <div class="row">
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                              <div class="form-group">
+                                 <input type="text" name="first_name" id="first_name" class="form-control input-md" placeholder="First Name" tabindex="1">
+                              </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                              <div class="form-group">
+                                 <input type="text" name="last_name" id="last_name" class="form-control input-md" placeholder="Last Name" tabindex="2">
+                              </div>
+                           </div>
+                        </div>
+                        <div class="form-group">
+                           <input type="text" name="user_name" id="user_name" class="form-control input-md" placeholder="Username" tabindex="3">
+                        </div>
+                        <div class="form-group">
+                           <input type="email" name="email" id="email" class="form-control input-md" placeholder="Email Address" tabindex="4">
+                        </div>
+                        <div class="row">
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                              <div class="form-group">
+                                 <input type="password" name="password" id="password" class="form-control input-md" placeholder="Password" tabindex="5">
+                              </div>
+                           </div>
+                           <div class="col-xs-12 col-sm-6 col-md-6">
+                              <div class="form-group">
+                                 <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-md" placeholder="Confirm Password" tabindex="6">
+                              </div>
+                           </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                           <div class="col-xs-12"><h5>Already Registered? Click <a href="login.html">here</a> to login.</h5></div>
+                        </div>
+                        <div class="row">
+                           <div class="col-xs-12"><input type="submit" value="Register" class="btn btn-primary btn-block btn-md" tabindex="7"></div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               <div class="mastfoot">
+            <div class="inner">
+              <p>Developed by <abbr title="Udit-Swapnil-Sharad-Rahul">USSR<abbr>.</p>
+            </div>
+          </div> 
+            </div>
+         </div>
+      </div>
+      </div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>SYMBIAN</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/welcome.css" rel="stylesheet">
+      <link href="css/login.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="site-wrapper">
+         <div class="site-wrapper-inner">
+            <div class="cover-container">
+               <div class="masthead clearfix">
+                  <div class="inner">
+                     <h3 class="masthead-brand"><a href="index.html"><abbr title = "Symbiosis Institute of Technology Alumni Network">SYMBIAN</abbr></a></h3>
+                     <nav>
+                        <ul class="nav masthead-nav">
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="#">About</a></li>
+                           <li><a href="#">Contact us</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <div class="cover-container">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                     <form role="form" method="POST" action="completeprofile.php" id = "myForm" enctype="multipart/form-data" onsubmit="return validateform()">
+                        <h2>Complete Profile</h2>
+                        <hr>
+                        <div class="form-group">
+                            <select class="form-control" label="Batch" name="batch">
+                            	  <option disabled="disabled">Batch</option>
+      								  <option value="2015">2015-19</option>
+      								  <option value="2014">2014-18</option>
+      								  <option value="2013">2013-17</option>
+      								  <option value="2012">2012-16</option>
+      								  <option value="2011">2011-15</option>
+      								  <option value="2010">2010-14</option>
+      								  <option value="2009">2009-13</option>
+      								  <option value="2008">2008-12</option>
+							       </select>
+                        </div>
+                        <div class="form-group">
+                           <input type="file" name="image" id="image" class="form-control input-md" tabindex="2">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" name="f_url" id="f_url" class="form-control input-md" placeholder="Facebook Profile URL" tabindex="3">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" name="t_url" id="t_url" class="form-control input-md" placeholder="Twitter Profile URL" tabindex="4">
+                        </div>
+                        <div class="form-group">
+                           <input type="text" name="l_url" id="l_url" class="form-control input-md" placeholder="Linkedin Profile URL" tabindex="4">
+                        </div>
+                        <hr>
+                        <div class="row">
+                           <div class="col-xs-12"><input type="submit" name="submit" class="btn btn-primary btn-block btn-md" tabindex="7"></div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+               </div>
+               <div class="mastfoot">
+                  <div class="inner">
+                     <p>Developed by <abbr title="Udit-Swapnil-Sharad-Rahul">USSR<abbr>.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>

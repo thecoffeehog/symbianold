@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>SYMBIAN</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/welcome.css" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="js/regvalidation.js"></script>
+   </head>
+   <body>
+      <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+         <div class="cover-container">
+            <div class="masthead clearfix">
+               <div class="inner">
+                  <h3 class="masthead-brand"><a href="index.html"><abbr title = "Symbiosis Institute of Technology Alumni Network">SYMBIAN</abbr></a></h3>
+                  <nav>
+                     <ul class="nav masthead-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact us</a></li>
+                          <li> <p class="lead" align="right">
+                              <a href="login.html" class="btn btn-lg btn-success">Login</a>
+                           </p>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+      </diśv>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
