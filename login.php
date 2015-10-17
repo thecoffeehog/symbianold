@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $dbusername = "root";
-$dbpassword = "";
+$dbpassword = "9374070589";
 $dbname = "symbian";
 
 $conn = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
